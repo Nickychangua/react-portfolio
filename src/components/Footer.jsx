@@ -1,7 +1,10 @@
+import './Footer.css'
+
 function Footer() {
   return (
-    <footer>
-      <p>© 2026 Nicholas Garcia Olaya. All rights reserved.</p>
+    <footer className="footer">
+      <p>© 2026 Nicholas Garcia Olaya</p>
+      <p>Built with React 🌱</p>
     </footer>
   )
 }

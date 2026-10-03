@@ -1,0 +1,15 @@
+.footer {
+  width: calc(100% - 40px);
+  max-width: 1200px;
+
+  margin: 60px auto 20px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #35677e;
+  font-size: 0.9rem;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+}
