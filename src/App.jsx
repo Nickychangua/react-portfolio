@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 
-import Home from './pages/home'
-import About from './pages/about'
-import Projects from './pages/projects'
-import Education from './pages/education'
-import Services from './pages/services'
-import Contact from './pages/contact'
+import Home from './pages/Home'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Education from './pages/Education'
+import Services from './pages/Services'
+import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
