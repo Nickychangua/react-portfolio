@@ -35,42 +35,19 @@
   justify-content: center;
 }
 
-.photo-placeholder {
+.profile-photo {
   width: 320px;
   height: 400px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
 
   border-radius: 40px;
-
-  color: #28738e;
-
-  background:
-    linear-gradient(
-      145deg,
-      rgba(255, 255, 255, 0.8),
-      rgba(164, 232, 247, 0.55)
-    );
 
   border: 3px solid rgba(255, 255, 255, 0.9);
 
   box-shadow:
     0 15px 35px rgba(28, 112, 145, 0.2),
     inset 0 3px 5px rgba(255, 255, 255, 0.8);
-}
-
-.photo-placeholder span {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.photo-placeholder p {
-  margin: 5px 0 0;
-
-  color: #5b8c9c;
 }
 
 
@@ -194,10 +171,10 @@
     text-align: center;
   }
 
-  .photo-placeholder {
+    .profile-photo {
     width: min(100%, 300px);
     height: 350px;
-  }
+    }
 
   .about-description {
     margin-left: auto;

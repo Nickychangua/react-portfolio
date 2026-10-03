@@ -1,4 +1,6 @@
 import './About.css'
+import profilePhoto from "../assets/foto_presentable.jpeg"
+<assets />
 
 function About() {
   return (
@@ -7,10 +9,11 @@ function About() {
       <section className="about-card">
 
         <div className="about-photo">
-          <div className="photo-placeholder">
-            <span>Photo</span>
-            <p>Coming soon</p>
-          </div>
+          <img
+            src={profilePhoto}
+            alt="Nicholas Garcia Olaya"
+            className="profile-photo"
+          />
         </div>
 
         <div className="about-content">

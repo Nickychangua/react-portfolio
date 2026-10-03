@@ -1,5 +1,8 @@
 import './Projects.css'
 
+import caredupeImage from '../assets/caredupe.webp'
+import linuxImage from '../assets/linux_penguin.png'
+
 function Projects() {
   return (
     <main className="projects-page">
@@ -43,8 +46,11 @@ function Projects() {
 
 
         <article className="project-card">
-          <div className="project-image project-image-green">
-            <span>CareDupe</span>
+          <div className="project-image">
+              <img
+                src={caredupeImage}
+                alt="CareDupe Software Requirements Project"
+              />
           </div>
 
           <div className="project-content">
@@ -69,8 +75,11 @@ function Projects() {
 
 
         <article className="project-card">
-          <div className="project-image project-image-aqua">
-            <span>Linux</span>
+          <div className="project-image">
+            <img
+              src={linuxImage}
+              alt="Linux Administration Project"
+            />
           </div>
 
           <div className="project-content">
