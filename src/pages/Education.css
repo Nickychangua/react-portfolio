@@ -1,0 +1,187 @@
+.education-page {
+  width: calc(100% - 40px);
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+.education-header {
+  max-width: 750px;
+
+  margin: 70px auto 55px;
+
+  text-align: center;
+}
+
+.education-label {
+  margin: 0;
+
+  color: #168eae;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.education-header h1 {
+  margin: 8px 0 15px;
+
+  color: #123d5a;
+
+  font-size: clamp(3rem, 6vw, 5rem);
+}
+
+.education-header > p:last-child {
+  color: #47768a;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
+/* Timeline */
+
+.education-timeline {
+  max-width: 900px;
+
+  margin: 0 auto 80px;
+}
+
+.education-card {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
+  padding: 40px;
+
+  background: rgba(255, 255, 255, 0.5);
+
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 32px;
+
+  box-shadow:
+    0 15px 35px rgba(30, 110, 145, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+  backdrop-filter: blur(12px);
+}
+
+
+/* Timeline decoration */
+
+.timeline-marker {
+  position: relative;
+}
+
+.timeline-dot {
+  position: relative;
+  z-index: 2;
+
+  width: 22px;
+  height: 22px;
+
+  margin-top: 5px;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    145deg,
+    #8af1ff,
+    #0797c9
+  );
+
+  border: 3px solid white;
+
+  box-shadow: 0 4px 10px rgba(0, 120, 170, 0.3);
+}
+
+.timeline-line {
+  position: absolute;
+
+  top: 27px;
+  left: 10px;
+
+  width: 2px;
+  height: calc(100% - 15px);
+
+  background: linear-gradient(
+    #40bddd,
+    rgba(64, 189, 221, 0)
+  );
+}
+
+
+/* Content */
+
+.education-date {
+  margin: 0 0 10px;
+
+  color: #1594b5;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.education-content h2 {
+  margin: 0 0 8px;
+
+  color: #174d68;
+
+  font-size: 1.8rem;
+}
+
+.education-content h3 {
+  margin: 0 0 20px;
+
+  color: #3b9b56;
+
+  font-size: 1.2rem;
+}
+
+.education-content > p {
+  color: #527b8c;
+
+  line-height: 1.7;
+}
+
+.education-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-top: 25px;
+}
+
+.education-details span {
+  padding: 8px 14px;
+
+  color: #246c78;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  background: rgba(218, 249, 255, 0.65);
+
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  .education-card {
+    grid-template-columns: 1fr;
+
+    padding: 30px;
+  }
+
+  .timeline-marker {
+    display: none;
+  }
+
+  .education-content h2 {
+    font-size: 1.5rem;
+  }
+}
