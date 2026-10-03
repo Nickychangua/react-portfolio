@@ -1,6 +1,7 @@
 import './Services.css'
 
 function Services() {
+    // List of services displayed dynamically on the Services page
   const services = [
     {
       icon: '🌐',

@@ -4,7 +4,7 @@ import './Contact.css'
 
 function Contact() {
   const navigate = useNavigate()
-
+// Stores the information entered in the contact form
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -12,7 +12,7 @@ function Contact() {
     email: '',
     message: ''
   })
-
+// Updates the corresponding form field when the user types
   const handleChange = (event) => {
     const { name, value } = event.target
 
